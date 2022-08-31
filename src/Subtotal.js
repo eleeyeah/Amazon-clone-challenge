@@ -1,12 +1,12 @@
 import React from 'react';
 import './Subtotal.css';
 /* import CurrencyFormat from 'react-currency-format'; */
-/* import ShoppingBasket from '@mui/icons-material/ShoppingBasket'; */
+import ShoppingBasket from '@mui/icons-material/ShoppingBasket';
 
-function Subtotal() {
+/* function Subtotal() {
   return (
     <div className="subtotal">
-     {/*  {<CurrencyFormat
+      {<CurrencyFormat
         renderText={(value) => (
           <>
             <p>
@@ -24,10 +24,10 @@ function Subtotal() {
         thousandSeparator={true}
         prefix={"$"}
       />}
- */}
+
       <button onClick={e => history.push('/payment')}>Proceed to Checkout</button>
     </div>
   );
-}
+} */
 
 export default Subtotal;
